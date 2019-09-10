@@ -1,0 +1,101 @@
+<?php
+require_once('top.inc');
+$style = isset($_GET['s']) && $_GET['s'] ? intval($_GET['s']) : 0;
+$kd = kd(3);
+$kd_k = $kd["k"];
+$kd_d = $kd["d"];
+?>
+	<head>
+		<meta charset="utf-8" />
+		<title>沪尚茗居 实景体验——一站式整体家装服务</title>
+		<meta name="keywords" content="<?=$kd_k?>" />
+		<meta name="description" content="<?=$kd_d?>" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/swiper.3.1.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.pack.js"></script>
+		<script type="text/javascript" src="js/jQuery.blockUI.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <?php require_once('head_codes.inc');?>
+	</head>
+	<body>
+		<?php require_once('body_top.inc');?>		
+		<?php $nban='images/nban_yanban.jpg'; ?>
+		<div class="content">
+		  <div class="nban2" style="background:url(<?php echo $nban ;?>) center no-repeat; height:290px; width:1200px; margin:0 auto"></div>		 
+			<div class="mainc">				   
+			  <div class="ybsx">
+				  <div class="ybsx1"><img src="images/ybkk.png"></div>
+					<div class="ybsx2">
+						<div class="ybs0">
+							<div class="sa1">风格：</div>
+							<div class="sa2 btnn1">
+								<ul>
+									<li<?php if($style==1){ ?> class="hoverss"<?php } ?>><a href="?s=1">现代风格</a></li>
+									<li<?php if($style==2){ ?> class="hoverss"<?php } ?>><a href="?s=2">美式风格</a></li>
+									<li<?php if($style==4){ ?> class="hoverss"<?php } ?>><a href="?s=4">欧式风格</a></li>
+									<li<?php if($style==5){ ?> class="hoverss"<?php } ?>><a href="?s=5">私人定制</a></li>
+								</ul>
+							  <div class="clear"></div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+        <div class="ybli">
+					<ul>
+					  <?php
+              $style = isset($_GET['s']) && $_GET['s'] ? intval($_GET['s']) : null;
+							$id = isset($_GET['id']) && $_GET['id'] ? intval($_GET['id']) : 1;
+              $currentPage = isset($_GET['page']) && intval($_GET['page']) > 0 ? intval($_GET['page']) : 1;
+              
+              $allSamples = new Query("*", "yangban", "");
+              if($style){
+                $allSamples->setWhere("`status` = 'ok' AND `type` = '" . $style . "'");
+              }
+              else{
+                $allSamples->setWhere("`status` = 'ok'");
+              }
+							$allSamples = DAS::quickQuery($allSamples, 'RC', 12, $currentPage);
+              $allSamples = DAS::hasData($allSamples) ? $allSamples : false;
+						  if($allSamples){
+                $_page = new Page($allSamples['NUM_DATA'], $allSamples['NUM_PER_PAGE']); 
+                $count = count($allSamples['data']);
+                for($i=0;$i<$count;$i++){
+                  echo "\n";
+					  ?>
+						<li><a href="yangban-v.php?id=<?=$allSamples['data'][$i]["id"]?>"><span class="hover transition"><img src="<?=$allSamples['data'][$i]["pictitle"]?>"/></span><img src="<?=$allSamples['data'][$i]["pic"]?>"></a></li>
+					  <?php
+                }
+							}
+					  ?>
+          </ul>
+					<div class="clear"></div>
+				</div>
+				<div class="pages">
+					<?=$_page->showpage()?>
+				</div>					
+			</div>
+ 		</div>		
+		<?php require_once('body_bottom.inc');?>
+    <?php require_once('body_codes.inc');?>
+	</body>
+</html>
+<script language="javascript" type="text/javascript">
+<!--//
+		$(document).ready(function() {
+			$(".btnn1 ul li a").click(function(){
+				$(".btnn1 ul li").removeClass("hoverss");
+				$(this).parent("li").addClass("hoverss");
+			});
+			
+			$(".btnn2 ul li a").click(function(){
+				$(".btnn2 ul li").removeClass("hoverss");
+				$(this).parent("li").addClass("hoverss");
+			});
+		});
+//-->
+</script>
+<?php require_once('bottom.inc');?>

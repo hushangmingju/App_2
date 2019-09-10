@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="upgrade_column_info_4_3_0+.sql" server="139.196.92.163" local="131740746320000000" remote="131759252400000000" Dst="0" />
+<file name="upgrade_tables_4_7_0+.sql" server="139.196.92.163" local="131740746320000000" remote="131759252400000000" Dst="0" />
+<file name="create_tables.sql" server="139.196.92.163" local="131740746320000000" remote="131759252400000000" Dst="0" />
+<file name="upgrade_tables_mysql_4_1_2+.sql" server="139.196.92.163" local="131740746320000000" remote="131759252400000000" Dst="0" />
+<file name="create_tables.sql" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="upgrade_column_info_4_3_0+.sql" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="upgrade_tables_4_7_0+.sql" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="upgrade_tables_mysql_4_1_2+.sql" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+</dwsync>

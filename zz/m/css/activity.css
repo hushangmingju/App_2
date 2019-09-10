@@ -1,0 +1,652 @@
+@charset "utf-8";
+html,
+body,
+div,
+p,
+form,
+input,
+button,
+select,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+}
+body {
+  max-width: 750px;
+  margin: 0px auto;
+  height: 100%;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: #333;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 601px) {
+  html {
+    font-size: 24px;
+  }
+}
+a {
+  text-decoration: none;
+}
+i,
+strong,
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+body > img:last-of-type {
+  display: none;
+}
+:-moz-placeholder {
+  color: #CDCFD0;
+  font-size: 1rem;
+}
+::-webkit-input-placeholder {
+  color: #CDCFD0;
+  font-size: 1rem;
+}
+:-ms-input-placeholder {
+  color: #CDCFD0;
+  font-size: 1rem;
+}
+::placeholder {
+  color: #CDCFD0;
+  font-size: 1rem;
+}
+/*去掉苹果设备input_CSS样式*/
+input,
+button,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Helvetica;
+  outline: none;
+}
+input[type=radio] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+}
+.actCon {
+  position: relative;
+  height: 100%;
+  background: #f1f1f1;
+}
+.errorTips {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -3rem;
+  font-size: 1.143rem;
+  color: #fff;
+  z-index: 100;
+  text-align: center;
+}
+.errorTips p {
+  display: inline-block;
+  min-height: 3rem;
+  line-height: 2rem;
+  width: 80%;
+  max-width: 580px;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+}
+.actFlow {
+  position: relative;
+}
+.actFlowBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.actFlowBox img {
+  width: 66.1%;
+  margin: 8.6% 0 0 4%;
+}
+.actFlowBox p {
+  margin-left: 5.3%;
+  color: #636363;
+}
+.order button {
+  background: #f78d26;
+  border-radius: 0.10714286rem;
+  color: #fff;
+  width: 100%;
+  height: 3.14285714rem;
+  line-height: 3.14285714rem;
+  font-size: 1.28571429rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.orderTwo {
+  margin: 0 1.57142857rem;
+}
+.order p {
+  position: relative;
+  margin-bottom: 1.14285714rem;
+  height: 3.21428571rem;
+}
+.order p select,
+.order p input {
+  padding: 0.71428571rem 0.71428571rem 0.71428571rem 5rem;
+  width: 100%;
+  height: 3.21428571rem;
+  line-height: 1.78571429rem;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 0.10714286rem;
+  font-size: 1rem;
+  color: #222;
+}
+.order p select {
+  background: url("select.png") no-repeat right center / 1.07142857rem #fff;
+  -webkit-background-origin: content-box;
+  background-origin: content-box;
+}
+.order p select:disabled {
+  background: #fff;
+}
+.order p label {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0.71428571rem;
+  width: 3.85714286rem;
+  height: 1.78571429rem;
+  border-right: 1px solid #d1d1d1;
+  text-align: center;
+  line-height: 1.78571429rem;
+}
+.order p img {
+  text-align: center;
+  margin-top: -0.14285714rem;
+}
+.order p.city img {
+  width: 1.14285714rem;
+}
+.order p.user img {
+  width: 1.35714286rem;
+}
+.order p.phone img {
+  width: 1rem;
+}
+.order p.tip {
+  margin: 0.85714286rem 0 0.71428571rem;
+  height: auto;
+  margin-bottom: 0;
+  color: #999;
+  font-size: 0.71428571rem;
+  text-align: center;
+}
+.order i {
+  position: absolute;
+  right: 0.71428571rem;
+  line-height: 3.14285714rem;
+}
+.actConTop {
+  position: relative;
+  padding: 13.14285714rem 0 1.42857143rem;
+}
+.actConTop .calculator {
+  margin-bottom: 1.21428571rem;
+  padding: 0.71428571rem;
+  height: 4.28571429rem;
+  border-radius: 0.35714286rem;
+  background: #4d4d4d;
+  box-shadow: inset 0 0 1.42857143rem rgba(0, 0, 0, 0.4);
+}
+.actConTop .calculator p {
+  display: inline-block;
+  margin: 0;
+  float: right;
+}
+.calculator span {
+  float: left;
+  display: inline-block;
+  width: 1.85714286rem;
+  height: 2.85714286rem;
+  background: url("zero_0.png") no-repeat center center / 100%;
+}
+.calculator span.n0 {
+  background-image: url("zero.png");
+}
+.calculator span.n1 {
+  background-image: url("one.png");
+}
+.calculator span.n2 {
+  background-image: url("two.png");
+}
+.calculator span.n3 {
+  background-image: url("three.png");
+}
+.calculator span.n4 {
+  background-image: url("four.png");
+}
+.calculator span.n5 {
+  background-image: url("five.png");
+}
+.calculator span.n6 {
+  background-image: url("six.png");
+}
+.calculator span.n7 {
+  background-image: url("seven.png");
+}
+.calculator span.n8 {
+  background-image: url("eight.png");
+}
+.calculator span.n9 {
+  background-image: url("nine.png");
+}
+.actConTop .topImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.actConTop .order {
+  position: relative;
+  z-index: 1;
+  margin: 0 0.71428571rem;
+  padding: 1.07142857rem 1.07142857rem 1.78571429rem;
+  border-radius: 0.57142857rem;
+  background: #fff;
+  box-shadow: 0 0.71428571rem 2.14285714rem rgba(0, 0, 0, 0.2);
+}
+.actConTop .order input,
+.actConTop .order select,
+.actConTop .order select:disabled {
+  background: #eee;
+}
+.actConTop .order select {
+  background: url("select.png") no-repeat right center / 1.07142857rem #eee;
+  -webkit-background-origin: content-box;
+  background-origin: content-box;
+}
+/*swiper*/
+.bottomSwiper {
+  padding-bottom: 2rem;
+}
+.swiper-pagination-bullet {
+  background: #666;
+  opacity: 0.4;
+  border-radius: 100%;
+}
+.swiper-pagination-bullet-active {
+  background: #555;
+  opacity: 1;
+}
+.styleImg,
+.sixCroe {
+  padding-right: 0.71428571rem;
+}
+.styleImg li,
+.sixCroe li {
+  float: left;
+  width: 50%;
+  margin-bottom: 0.71428571rem;
+  padding-left: 0.71428571rem;
+}
+.sixCroe li {
+  position: relative;
+}
+.sixCroe li span {
+  position: absolute;
+  right: 0.57142857rem;
+  bottom: 0.57142857rem;
+  display: block;
+  width: 1.28571429rem;
+  height: 1.28571429rem;
+  border-radius: 100%;
+  background: #d9d9d9;
+  opacity: 0;
+  z-index: 1;
+  text-align: center;
+  animation: flicker 1s linear infinite alternate;
+  -moz-animation: flicker 1s linear infinite alternate;
+  -webkit-animation: flicker 1s linear infinite alternate;
+  -o-animation: flicker 1s linear infinite alternate;
+}
+.sixCroe li i {
+  position: absolute;
+  right: 0.92857143rem;
+  bottom: 0.92857143rem;
+  z-index: 2;
+  display: inline-block;
+  width: 0.57142857rem;
+  height: 0.57142857rem;
+  border-radius: 0.57142857rem;
+  background: #999;
+  opacity: 0.6;
+  animation: flicker 1s 0.5s  linear infinite alternate;
+  -moz-animation: flicker 1s 0.5s  linear infinite alternate;
+  -webkit-animation: flicker 1s 0.5s  linear infinite alternate;
+  -o-animation: flicker 1s 0.5s linear infinite alternate;
+}
+.sixCroe li img {
+  border-radius: 0.71428571rem;
+  box-shadow: 0 0.35714286rem 0.71428571rem rgba(102, 102, 102, 0.2);
+}
+.bottomSwiper {
+  margin: 0 0.71428571rem;
+}
+.bottomSwiper .bottomThumb {
+  padding-top: 0.71428571rem;
+}
+.copyRight {
+  margin-top: 1.42857143rem;
+  line-height: 1.42857143rem;
+  color: #4b4b4c;
+  text-align: center;
+  font-size: 0.64285714rem;
+  background: #8c8c8c;
+}
+.actPop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+  overflow: auto;
+}
+.actPopBox {
+  display: table;
+  width: 100%;
+  height: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.actPop .actPopInner {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.actPop .close {
+  display: inline-block;
+  margin-top: 0.71428571rem;
+  width: 2.85714286rem;
+}
+.sixCroeBig {
+  padding: 0 1.21428571rem;
+}
+.sixCroeBig img {
+  border-radius: 0.71428571rem;
+}
+.styleCon {
+  background: #fff;
+  margin: 0.71428571rem 0.71428571rem 0;
+  padding: 0.35714286rem 0.35714286rem 2.14285714rem;
+  display: block;
+  text-align: center;
+}
+.styleCon + .close {
+  display: block;
+  margin: 0.71428571rem auto 1.42857143rem;
+}
+.styleCon h3 {
+  margin: 1.42857143rem 0;
+  font-size: 1.42857143rem;
+  font-weight: normal;
+}
+.styleCon .order {
+  padding: 0 0.57142857rem;
+}
+.styleCon .order button {
+  width: 86%;
+  margin-top: 0.28571429rem;
+}
+.styleCon .order button {
+  width: 86%;
+  margin-top: 0.28571429rem;
+}
+.stylePopSwiper .swiper-slide img {
+  width: 100%;
+  max-width: 100%;
+}
+.stylePopSwiper .swiper-pagination {
+  bottom: 0.35714286rem;
+}
+.stylePopSwiper .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.5;
+}
+.stylePopSwiper .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.tabsThumb {
+  margin: 0 0 0.14285714rem;
+  width: 100%;
+  display: table;
+  height: 2.57142857rem;
+  text-align: center;
+}
+.tabsThumb li {
+  display: table-cell;
+  width: 33.33%;
+  padding-left: 0.14285714rem;
+  vertical-align: top;
+  font-size: 1.14285714rem;
+  font-weight: lighter;
+}
+.tabsThumb li a {
+  display: block;
+  border-radius: 0.14285714rem;
+  width: 100%;
+  height: 2.57142857rem;
+  line-height: 2.57142857rem;
+  color: #fff;
+  background: #313131;
+}
+.tabsThumb li.active a {
+  color: #313131;
+  font-weight: bold;
+  background: #ffe356;
+}
+.tabsThumb li:first-child,
+.pageTwo .tabsThumb li:first-child {
+  padding-left: 0;
+}
+.downTabSwiper .tabsThumb li {
+  width: 25%;
+  font-size: 1rem;
+}
+.btBtnBox {
+  display: none;
+  position: fixed;
+  bottom: -1px;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+}
+.btBtnBox .btBox {
+  max-width: 640px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.btBtnBox a {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 3.85714286rem;
+  color: #fff;
+  font-size: 1.35714286rem;
+  line-height: 3.85714286rem;
+  text-align: center;
+}
+.btBtnBox a span {
+  display: block;
+  background: rgba(255, 167, 64, 0.9);
+}
+.btBtnBox a span i {
+  font-style: normal;
+}
+.btBtnBox a:first-child span {
+  background: rgba(50, 50, 50, 0.9);
+  margin: 0 1px 0 0;
+}
+.btBtnBox a:last-child span {
+  margin: 0 0 0 1px;
+}
+.btBtnBox a:only-child {
+  width: 100%;
+}
+.btBtnBox a:only-child span {
+  margin: 0;
+}
+.pageTwo .btBtnBox a span {
+  background: rgba(138, 51, 51, 0.9);
+  margin: 0;
+}
+.pageTwo .btBtnBox a:last-child span {
+  background: rgba(182, 136, 55, 0.9);
+}
+.copyright {
+  padding: 1.07142857rem 0 5rem;
+  text-align: center;
+  font-size: 0.71428571rem;
+  color: #acacac;
+  background: #fff;
+}
+.actPop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+  overflow: auto;
+}
+.actPopBox {
+  display: table;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.actPop .actPopInner {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.actPop .order {
+  display: none;
+  position: relative;
+  padding-bottom: 1.28571429rem;
+  background: url("one/pop_1_top.jpg") no-repeat left top / 25%, url("one/pop_1_btm.jpg") no-repeat right bottom / 35%, #ffe45f;
+}
+.actPop .order p {
+  padding: 0 6.4%;
+}
+.actPop .order button {
+  font-size: 1.42857143rem;
+  background: #323232;
+  color: #ffe45f;
+}
+.actPop .order p input {
+  border: 0;
+  background: #fff;
+}
+.actPop .order p select {
+  border: 0;
+  background-color: #fff;
+}
+/*闪烁*/
+@keyframes flicker {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-moz-keyframes flicker {
+  /* Firefox */
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-webkit-keyframes flicker {
+  /* Safari 和 Chrome */
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-o-keyframes flicker {
+  /* Opera */
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-ms-keyframes flicker {
+  /* Opera */
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.fixBtn {
+  display: block!important;
+  position: fixed;
+  right: 0;
+  bottom: 9%;
+  z-index: 2;
+  width: 5.428rem;
+}

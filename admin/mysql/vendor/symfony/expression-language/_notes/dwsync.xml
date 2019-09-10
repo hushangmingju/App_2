@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CHANGELOG.md" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="Compiler.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="composer.json" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="Expression.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="ExpressionFunction.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="ExpressionLanguage.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="Lexer.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="ExpressionFunctionProviderInterface.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="LICENSE" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="ParsedExpression.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="Parser.php" server="139.196.92.163" local="131740746410000000" remote="131759253000000000" Dst="0" />
+<file name="CHANGELOG.md" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="Compiler.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="composer.json" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="ExpressionFunction.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="ExpressionFunctionProviderInterface.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="Expression.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="Lexer.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="LICENSE" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="ExpressionLanguage.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="ParsedExpression.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="Parser.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="README.md" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="phpunit.xml.dist" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="SerializedParsedExpression.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="TokenStream.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="SyntaxError.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+<file name="Token.php" server="www.mingjugroup.com" local="131740746410000000" remote="131996806800000000" Dst="0" />
+</dwsync>

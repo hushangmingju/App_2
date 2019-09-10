@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="checkbox.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="div_for_slider_effect.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="dropdown.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="filter.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="fk_checkbox.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="header_location.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="prefs_autoload.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="prefs_twofactor.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="prefs_twofactor_configure.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="prefs_twofactor_confirm.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="preview_sql.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="radio_fields.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="secondary_tabs.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="select_all.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="select_lang.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="start_and_number_of_rows_panel.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="theme_preview.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="toggle_button.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="view_create.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="checkbox.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="div_for_slider_effect.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="dropdown.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="filter.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="fk_checkbox.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="header_location.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="prefs_autoload.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="prefs_twofactor_configure.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="prefs_twofactor.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="prefs_twofactor_confirm.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="preview_sql.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="radio_fields.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="secondary_tabs.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="select_lang.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="select_all.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="start_and_number_of_rows_panel.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="theme_preview.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="toggle_button.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="view_create.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+</dwsync>

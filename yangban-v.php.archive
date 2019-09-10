@@ -1,0 +1,302 @@
+<?php
+require_once('top.inc');
+$id = isset($_GET['id']) && intval($_GET['id']) > 0 ? intval($_GET['id']) : null;
+$dbData = new Query("*", "`yangban`", "", "`id` = '" . $id . "'");
+$dbData = DAS::quickQuery($dbData);
+
+if(DAS::hasData($dbData)){
+  $dbData = $dbData['data'][0];
+	$title=$dbData['title'];
+	$etitle=$dbData['etitle'];
+	$desc=$dbData['desc'];
+	$price=$dbData['price'];
+	$piclist=$dbData['piclist'];
+	$pic=$dbData['pic'];
+	$pic1=$dbData['pic1'];
+	$pic2=$dbData['pic2'];
+	$pic3=$dbData['pic3'];
+	$pic4=$dbData['pic4'];
+	$pic5=$dbData['pic5'];
+	$pic6=$dbData['pic6'];
+	$label1=$dbData['label1'];
+	$label2=$dbData['label2'];
+	$label3=$dbData['label3'];
+	$label4=$dbData['label4'];
+	$label5=$dbData['label5'];
+	$label6=$dbData['label6'];
+	$time=$dbData['time'];
+	$style=$dbData['type'];
+}else{
+	Header("HTTP/1.1 301 Moved Permanently");
+	Header("Location: yangban.php");
+}
+$styleNameArr = array("现代风格","美式风格","新中式风格","欧式风格");
+$styleDescArr = array("现代风格是比较流行的一种风格，追求时尚与潮流，非常注重居室空间的布局与使用功能的完美结合。现代风格具有简洁造型、无过多的装饰、推崇科学合理的构造工艺，重视发挥材料的性能的特性。现代风格因简约、时尚的装修理念，深受都市人群喜爱。",
+"欧式风格，是一种来自于欧罗巴洲的风格。主要有法式风格，意大利风格，西班牙风格，英式风格，地中海风格，北欧风格等几大流派。欧式风格就是欧洲各国文化传统所表达的强烈的文化内涵，是近年来高档楼盘和别墅豪宅装修的主要风格。",
+"美式风格，顾名思义是来自于美国的装修和装饰风格。美国是个移民国家，欧洲各国各民族人民来到美洲殖民地，把各民族各地区的装饰装修和家具风格都带到了美国，同时由于美国地大物博，极大的放开了移民们对尺寸的需求，使得美式风格以宽大，舒适，杂糅各种风格而著称。美式家居风格的这些元素也正好迎合了时下的文化资产者对生活方式的需求，即：有文化感、有贵气感，还不能缺乏自在感与情调感。",
+"中国风是通过中式风格的特征，表达对清雅含蓄、端庄丰华的东方式精神境界的追求。新中式风格是通过对传统文化的认识，将现代元素和传统元素结合在一起，以现代人的审美需求来打造富有传统韵味的事物，让传统艺术在家装中得到合适的体现。");
+$styleDesc = isset($styleDescArr[($style-1)]) ? $styleDescArr[($style-1)] : null;
+$styleName = isset($styleNameArr[($style-1)]) ? $styleNameArr[($style-1)] : null;
+
+$kd = kd(3);
+$kd_k = $kd["k"];
+$kd_d = $kd["d"];
+
+$pid = isset($_GET['pid']) && $_GET['pid'] ? intval($_GET['pid']) : 1;
+?>
+	<head>
+		<meta charset="utf-8" />
+		<title><?=$title?> <?=$etitle?>——实景体验——一站式整体家装服务</title>
+		<meta name="keywords" content="<?=$title?> <?=$kd_k?>" />
+		<meta name="description" content="<?=$title?> <?=$etitle?>，<?=$kd_d?>" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/swiper.3.1.2.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.pack.js"></script>
+		<script type="text/javascript" src="js/jQuery.blockUI.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <?php require_once('head_codes.inc');?>
+	</head>
+
+	<body>
+		<?php require_once('body_top.inc');?>		
+
+		<div class="content">
+			<div class="mainc">
+
+				<div class="ybm1">
+
+					<div class="gallery">
+
+						<div class="ybtu">
+
+
+
+							<div class="bd">
+								<ul>
+								
+								<?php
+								$picListArr = explode('|',$piclist);
+								for($i=0;$i<count($picListArr);$i++){
+								?>
+									<li>
+										<div class="bg"></div>
+										<div class="pic">
+											<a href="#"><img src="<?=$picListArr[$i]?>" /></a>
+										</div>
+									</li>
+								<?php
+								}
+								?>
+								</ul>
+							</div>
+
+							<div class="hd">
+								<a class="sPrev">&lt;</a>
+								<a class="sNext">&gt;</a>
+								<ul>
+								<?php
+								$picListArr = explode('|',$piclist);
+								for($i=0;$i<count($picListArr);$i++){
+								?>
+									<li><img src="<?=$picListArr[$i]?>" /></li>
+								<?php
+								}
+								?>
+								</ul>
+							</div>
+
+							<script type="text/javascript">
+								jQuery(".hd").slide({
+									mainCell: "ul",
+									effect: "leftLoop",
+									autoPlay: true,
+									vis: 3,
+									prevCell: ".sPrev",
+									nextCell: ".sNext"
+								});
+								jQuery(".gallery").slide({
+									mainCell: ".bd ul",
+									effect: "leftLoop",
+									autoPlay: true,
+									delayTime: 0,
+									defaultIndex: 0
+								});
+							</script>
+
+						</div>
+						<div class="ybxx">
+							<div class="ybtit"><?=$title?>&nbsp;&nbsp;<span><?=$etitle?></span></div>
+							<div class="ybjj">
+								<?=$desc?>
+							</div>
+
+							<div class="yyjsq">
+								<div class="yy"><a href="yuyue.php?sid=<?=$id?>">在线预约</a></div>
+								<div class="jsq"><a href="javascript:;" class="js-kai">计算器</a></div>
+								<div class="clear"></div>
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+				</div>
+
+				<div class="kjpz">空间配置</div>
+
+				<div class="tt2">
+
+					<div class="slideTxtBox">
+						
+						<div class="slideBox" id="con_pic_1"  <?php if($pid==1){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic1);
+								//pre($listArr);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+					
+						
+						<div class="slideBox" id="con_pic_2"  <?php if($pid==2){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic2);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+					
+						
+						<div class="slideBox" id="con_pic_3"  <?php if($pid==3){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic3);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+						
+						<div class="slideBox" id="con_pic_4"  <?php if($pid==4){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic4);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+						
+						<div class="slideBox" id="con_pic_5"  <?php if($pid==5){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic5);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+						
+						<div class="slideBox" id="con_pic_6"  <?php if($pid==6){echo "style='height:auto;'";}else{echo "style='height:0px'";} ?>>
+							<div class="slide-arrow prev"></div>
+							<div class="slide-arrow next"></div>
+							<div class="bd">
+								<?php
+								$listArr = explode('|',$pic6);
+								for($i=0;$i<count($listArr);$i++){
+								?>
+								<div class="abstu"><img src="<?=$listArr[$i]?>"></div>
+								<?php
+								}
+								?>
+							</div>
+						</div>
+
+						<div class="hd">
+							<ul>
+								<li id="pic1" onClick="setTab('pic',1,6)"  <?php if($pid==1){echo "class='on'";} ?>>客厅</li>
+								<li id="pic2" onClick="setTab('pic',2,6)"  <?php if($pid==2){echo "class='on'";} ?>>主卧</li>
+								<li id="pic3" onClick="setTab('pic',3,6)"  <?php if($pid==3){echo "class='on'";} ?>>次卧</li>
+								<li id="pic4" onClick="setTab('pic',4,6)"  <?php if($pid==4){echo "class='on'";} ?>>餐厅</li>
+								<li id="pic5" onClick="setTab('pic',5,6)"  <?php if($pid==5){echo "class='on'";} ?>>厨房</li>
+								<li id="pic6" onClick="setTab('pic',6,6)"  <?php if($pid==6){echo "class='on'";} ?>>卫生间</li>
+							</ul>
+						</div>
+						
+						<div class="abscon">
+							<div class="abscon2">
+								<div class="abscon2"><span><?=$title?></span>&nbsp;&nbsp;&nbsp;<span style="display:none">￥<?=$price?> /平米</span></div>
+							</div>
+						</div>
+						
+						<script type="text/javascript">
+							jQuery(".slideBox").slide({
+								effect: "left",
+								trigger: "click"
+							});
+						</script>
+						
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		
+		<?php
+		$yangbanTitle = $title;
+		$yangbanPrice = $price;
+		?>
+		<?php require_once('body_bottom.inc');?>
+    <?php require_once('body_codes.inc');?>
+
+	</body>
+
+</html>
+
+<script>
+<!--
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+  var menu=document.getElementById(name+i);
+  var con=document.getElementById("con_"+name+"_"+i);
+  menu.className=i==cursel?"on":"";
+  con.style.height=i==cursel?"auto":"0";
+}
+}
+//-->
+</script>
+<?php require_once('bottom.inc');?>

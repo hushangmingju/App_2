@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractEnum.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="BitArray.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="BitMatrix.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="BitUtils.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="CharacterSetEci.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="EcBlock.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="EcBlocks.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="ErrorCorrectionLevel.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="FormatInformation.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="Mode.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="ReedSolomonCodec.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="Version.php" server="139.196.92.163" local="131740746440000000" remote="131759253000000000" Dst="0" />
+<file name="AbstractEnum.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="BitMatrix.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="BitArray.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="BitUtils.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="EcBlock.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="CharacterSetEci.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="EcBlocks.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="FormatInformation.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="ErrorCorrectionLevel.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="Mode.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="ReedSolomonCodec.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+<file name="Version.php" server="www.mingjugroup.com" local="131740746440000000" remote="131996806200000000" Dst="0" />
+</dwsync>

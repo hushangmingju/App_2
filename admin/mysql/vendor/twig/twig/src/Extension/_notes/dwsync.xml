@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="CoreExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="DebugExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ExtensionInterface.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="GlobalsInterface.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="EscaperExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ProfilerExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="InitRuntimeInterface.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="OptimizerExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="SandboxExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="StagingExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="RuntimeExtensionInterface.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="StringLoaderExtension.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+</dwsync>

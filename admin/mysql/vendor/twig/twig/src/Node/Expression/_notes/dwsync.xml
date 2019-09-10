@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ArrayExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="AssignNameExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="BlockReferenceExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ConstantExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="CallExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ConditionalExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="FilterExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="GetAttrExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="FunctionExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="MethodCallExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="NameExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="NullCoalesceExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ParentExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TempNameExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TestExpression.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+</dwsync>

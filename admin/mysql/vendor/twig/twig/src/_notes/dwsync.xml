@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Compiler.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Environment.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="ExpressionParser.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="FileExtensionEscapingStrategy.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Lexer.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Markup.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="NodeTraverser.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Parser.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Source.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Template.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TemplateWrapper.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="Token.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TokenStream.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TwigFilter.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TwigFunction.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+<file name="TwigTest.php" server="www.mingjugroup.com" local="131740746430000000" remote="131996806800000000" Dst="0" />
+</dwsync>

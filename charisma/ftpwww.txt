@@ -1,0 +1,6 @@
+Enter ftp account name: gcwww
+Enter password for ftp account gcwww: 112233
+Enter directory for ftp account gcwww: /home/wwwroot/www.mingjugroup.com/
+Password: 
+Enter it again: 
+Created FTP User: gcwww Sucessfully.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="advisory_rules.txt" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="check_user_privileges.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="common.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="config.values.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="config.default.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="db_common.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="db_table_exists.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="error.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="hash.lib.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="information_schema_relations.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="language_stats.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="mysql_relations.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="replication.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="mult_submits.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="server_common.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="special_schema_links.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="tbl_columns_definition_form.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="tbl_common.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="tbl_partition_definition.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="user_preferences.inc.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="vendor_config.php" server="139.196.92.163" local="131740744940000000" remote="131759252400000000" Dst="0" />
+<file name="advisory_rules.txt" server="www.mingjugroup.com" local="131740744940000000" remote="131996805600000000" Dst="0" />
+<file name="check_user_privileges.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996805600000000" Dst="0" />
+<file name="common.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="config.values.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="config.default.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="db_common.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="db_table_exists.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="error.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="hash.lib.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="language_stats.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="information_schema_relations.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="mult_submits.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="mysql_relations.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="replication.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="server_common.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="special_schema_links.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="tbl_columns_definition_form.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="tbl_common.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="tbl_partition_definition.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="user_preferences.inc.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+<file name="vendor_config.php" server="www.mingjugroup.com" local="131740744940000000" remote="131996806200000000" Dst="0" />
+</dwsync>

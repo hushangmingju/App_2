@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="add_privileges_database.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="add_privileges_table.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="add_user_fieldset.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="add_privileges_routine.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="column_privileges.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="delete_user_fieldset.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="choose_user_group.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="global_priv_table.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="global_priv_tbl_item.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="edit_routine_privileges.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="initials_row.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="privileges_summary.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="privileges_summary_row.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="require_options_item.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="resource_limits.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="require_options.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="resource_limit_item.twig" server="139.196.92.163" local="131740746360000000" remote="131759253000000000" Dst="0" />
+<file name="add_privileges_database.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="add_privileges_routine.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="add_privileges_table.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="choose_user_group.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="column_privileges.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="add_user_fieldset.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="delete_user_fieldset.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="global_priv_table.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="edit_routine_privileges.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="initials_row.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="privileges_summary.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="global_priv_tbl_item.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="require_options.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="require_options_item.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="privileges_summary_row.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="resource_limits.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+<file name="resource_limit_item.twig" server="www.mingjugroup.com" local="131740746360000000" remote="131996806200000000" Dst="0" />
+</dwsync>

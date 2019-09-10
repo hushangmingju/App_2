@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="column_attributes.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_adjust_privileges.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_attribute.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_auto_increment.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_comment.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_default.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_extra.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_indexes.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_definitions_form.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_length.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_name.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_null.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_type.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_virtuality.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="mime_type.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="move_column.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="partitions.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="table_fields_definitions.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="transformation_option.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="transformation.twig" server="139.196.92.163" local="131740746320000000" remote="131759253000000000" Dst="0" />
+<file name="column_adjust_privileges.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_attribute.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_attributes.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_auto_increment.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_comment.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_default.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_definitions_form.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_indexes.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_extra.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_length.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_null.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_name.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_type.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="mime_type.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="column_virtuality.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="move_column.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="table_fields_definitions.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="partitions.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="transformation.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+<file name="transformation_option.twig" server="www.mingjugroup.com" local="131740746320000000" remote="131996806200000000" Dst="0" />
+</dwsync>

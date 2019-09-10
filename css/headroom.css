@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#backtop{width: 36px; height: 36px; background: url(../images/backtop.png) center center no-repeat rgba(254,120,83,0.75); background-size: 18px auto; position:fixed; z-index: 1000; right: -38px; bottom: 65px;}
+
+
+#backtop.headroom--not-top{
+	right: 5px;
+}
+#backtop.headroom--top{
+	right: -38px;
+}

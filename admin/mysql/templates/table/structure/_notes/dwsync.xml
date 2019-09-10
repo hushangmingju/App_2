@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="actions_in_table_structure.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="action_row_in_structure_table.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="add_column.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="check_all_table_column.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="display_partitions.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="display_table_stats.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="move_columns_dialog.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="display_structure.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="optional_action_links.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="partition_definition_form.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="row_stats_table.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="table_structure_header.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="table_structure_row.twig" server="139.196.92.163" local="131740746370000000" remote="131759253000000000" Dst="0" />
+<file name="actions_in_table_structure.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="add_column.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="action_row_in_structure_table.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="check_all_table_column.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="display_partitions.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="display_structure.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="display_table_stats.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="move_columns_dialog.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="optional_action_links.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="partition_definition_form.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="row_stats_table.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="table_structure_header.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+<file name="table_structure_row.twig" server="www.mingjugroup.com" local="131740746370000000" remote="131996806200000000" Dst="0" />
+</dwsync>
